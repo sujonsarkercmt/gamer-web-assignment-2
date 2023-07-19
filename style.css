@@ -67,14 +67,14 @@
         padding-bottom: 7vw;
         padding-left: 10vw;
         width: 60%;
-        background: url('/images/Group\ 14.png');
+        background: url('images/group 14.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
 
     .mfd2 {
         width: 40%;
-        background: url('/images/Group\ 18.png');
+        background: url('images/group 18.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         margin-right: 10vw;
@@ -162,7 +162,7 @@
     }
 
     #img1 {
-        background: url('/images/Rectangle 4.png');
+        background: url('images/rectangle 4.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
@@ -170,7 +170,7 @@
     }
 
     #img2 {
-        background: url('/images/Rectangle 5.png');
+        background: url('images/rectangle 5.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
@@ -178,7 +178,7 @@
     }
 
     #img3 {
-        background: url('/images/Rectangle 7.png');
+        background: url('images/rectangle 7.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
@@ -186,7 +186,7 @@
     }
 
     #img4 {
-        background: url('/images/Rectangle 6.png');
+        background: url('images/rectangle 6.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
