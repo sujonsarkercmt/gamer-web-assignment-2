@@ -283,10 +283,122 @@
         opacity: 1;
     }
 
+    #mainsubdiv4 {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70vw;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .feagd {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3vw;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        margin-top: 1vw;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .feagd:hover {
+        border: 2px solid orange;
+    }
+
+    .feagd img {
+        width: 3vw;
+        height: 3vw;
+        border-radius: 30vw;
+    }
+
+    .feagd p {
+        font-size: 1vw;
+    }
+
+    .forflex {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .footer {
+        margin-top: 5vw;
+        background: rgb(35, 38, 49);
+    }
+
+    .fimg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fimg img {
+        width: 4vw;
+        height: 3vw;
+    }
+
+    .list1,
+    .list2,
+    .loguif1,
+    .loguif2 {
+        color: white;
+        display: flex;
+    }
+
+    .list,
+    .logufo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .list div p {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 2vw;
+    }
+
+    .logufo img {
+        width: 4vw;
+        height: 4vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .sac {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgb(150, 150, 150);
+    }
+
+    .sac p {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .copyright {
+        display: flex;
+        color: rgb(150, 150, 150);
+        justify-content: center;
+        padding-bottom: 3vw;
+    }
+    .fimg h1{
+        color: white;
+        font-size: 3vw;
+    }
 }
-
-
-
 
 
 

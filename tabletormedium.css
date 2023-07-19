@@ -1,5 +1,5 @@
 /* medium view */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
 
     * {
         font-family: Work Sans;
@@ -67,14 +67,14 @@
         padding-bottom: 7vw;
         padding-left: 10vw;
         width: 60%;
-        background: url('/images/Group\ 14.png');
+        background: url('images/group 14.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
 
     .mfd2 {
         width: 40%;
-        background: url('/images/Group\ 18.png');
+        background: url('images/group 18.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         margin-right: 10vw;
@@ -162,7 +162,7 @@
     }
 
     #img1 {
-        background: url('/images/Rectangle 4.png');
+        background: url('images/rectangle 4.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
@@ -170,7 +170,7 @@
     }
 
     #img2 {
-        background: url('/images/Rectangle 5.png');
+        background: url('images/rectangle 5.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
@@ -178,7 +178,7 @@
     }
 
     #img3 {
-        background: url('/images/Rectangle 7.png');
+        background: url('images/rectangle 7.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
@@ -186,7 +186,7 @@
     }
 
     #img4 {
-        background: url('/images/Rectangle 6.png');
+        background: url('images/rectangle 6.png');
         width: 19vw;
         height: 25vw;
         background-repeat: no-repeat;
@@ -283,10 +283,117 @@
         opacity: 1;
     }
 
+    #mainsubdiv4 {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70vw;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .feagd {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3vw;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        margin-top: 1vw;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .feagd:hover {
+        border: 2px solid orange;
+    }
+
+    .feagd img {
+        width: 3vw;
+        height: 3vw;
+        border-radius: 30vw;
+    }
+
+    .feagd p {
+        font-size: 1vw;
+    }
+
+    .forflex {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .footer {
+        background: rgb(35, 38, 49);
+    }
+
+    .fimg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fimg img {
+        width: 4vw;
+        height: 3vw;
+    }
+
+    .list1,
+    .list2,
+    .loguif1,
+    .loguif2 {
+        color: white;
+        display: flex;
+    }
+
+    .list,
+    .logufo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .list div p {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 2vw;
+    }
+
+    .logufo img {
+        width: 4vw;
+        height: 4vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .sac {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: rgb(150, 150, 150);
+    }
+
+    .sac p {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .copyright {
+        display: flex;
+        color: rgb(150, 150, 150);
+        justify-content: center;
+        padding-bottom: 3vw;
+    }
 }
-
-
-
 
 
 
